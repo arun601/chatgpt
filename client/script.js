@@ -81,7 +81,7 @@ const handleSubmit= async (e)=>{
     const data=await response.json();
 
     const parsedData= data.bot.trim();
-    
+    console.log(messageDiv);
     typetext(messageDiv,parsedData);
 
   }else{
